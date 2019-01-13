@@ -2,9 +2,9 @@ import 'package:angular/angular.dart';
 
 @Component(
   selector: 'my-app',
-  styleUrls: ['app_component.css'],
   templateUrl: 'app_component.html',
-  directives: [],
+  styleUrls: ['app_component.css']
 )
 class AppComponent {
+  final String intro = 'Angular dart fundamentals';
 }
